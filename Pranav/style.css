@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    
+}
+body {
+    background-color: lightblue;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+section .card{
+    display: flex;
+    width: 60%;
+    height: auto;
+    background-color: white;
+    box-shadow: 1px 2px 5px 3px black;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 17%;
+    padding: 20px;
+}
+section .card .card_img{
+
+    width: 100%;
+    height: auto;
+}
+section .card .card_img img{
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+section  .card_heading{
+
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+section .card_heading h2{
+    text-align: left;
+    letter-spacing:2px;
+    font-weight: 700;
+    font-size: 15sp;
+    
+}
+.review{
+    padding-top:5% ;
+    padding-bottom: 5%;
+    color: gold;
+}
+
+section .card .price h3:nth-child(2){
+   
+        color: gray;
+        text-decoration: line-through;
+    }
+    section .card  .more-info h5:nth-child(1){
+        color: black;
+    }
+    section .card  .more-info{
+        display:flex;
+        justify-content: space-between;
+
+    }
+    section .card  .more-info h5{
+        color: gray;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    section .card .info-content{
+        font-size: 12px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    section .card .button{
+        min-height: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    section .card .button button{
+        width: 50%;
+        font: inherit;
+        border: 2px solid #5FDFFC;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+
+    }
+    section .card .button i{
+        padding-right: 22px;
+    }
+    section .card .button button:nth-child(1) i{
+        margin-right: 1opx;
+    }
+    section .card .button button:hover{
+        color: white;
+        background-color: #5FDFFC;
+    }
+
+ 
+
+@media (max-width:768px){
+    section .card{
+        display: block;
+        padding: 50px;
+    }
+    section .card .card_img{
+        width: 100%;
+        height: auto;
+    }
+}
